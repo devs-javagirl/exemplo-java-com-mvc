@@ -34,14 +34,7 @@ public class UsuariosController {
 	
 	@PostMapping
 	public String criarUsuario(Usuarios novoUsuario, Model model, RedirectAttributes attributes) {
-		try {
-			usuariosService.salvar(novoUsuario);
-		} catch (RuntimeException e) {
-			model.addAttribute("msgErro", e.getMessage());
-		}
-		
+		usuariosService.salvar(novoUsuario);
 		return "redirect:/usuarios";
 	}
-	
-	
 }
