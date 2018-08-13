@@ -5,7 +5,7 @@ Instalação:
   - Windows: https://github.com/rajivkanaujia/alphaworks/wiki/Install-MySQL-using-Homebrew
   
 Importar dump:
- - `mysql -u root -p commvc < backup.sql`
+ - `mysql -u root -p projetofinalizado < backup.sql`
  
 ### Start na aplicação:
  - Abrir o arquivo "Boot.java" > botão direito no arquivo > "Run as" > "Java application" (ou "Spring Boot App")
