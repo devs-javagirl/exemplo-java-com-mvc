@@ -1,14 +1,15 @@
-### Banco de dados: Mysql
-Instalação:
-  - MAC: https://www.devmedia.com.br/instalando-e-configurando-a-nova-versao-do-mysql/25813
-  - Linux: https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04
-  - Windows: https://github.com/rajivkanaujia/alphaworks/wiki/Install-MySQL-using-Homebrew
-  
-Importar dump:
- - `mysql -u root -p projetofinalizado < backup.sql`
  
-### Start na aplicação:
+## Start na aplicação:
  - Abrir o arquivo "Boot.java" > botão direito no arquivo > "Run as" > "Java application" (ou "Spring Boot App")
  
+### Para acessar a aplicação:
+ - http://localhost:8080/
+ 
+### Para acessar console do banco:
+ - http://localhost:8080/h2-console/
+ - URL: jdbc:h2:mem:testdb
+ - User name: sa
+ - Sem senha
+
 ## Discussão:
   - Quais são os benefícios e problemas de utilizar uma arquitetura assim?
